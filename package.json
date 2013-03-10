@@ -1,6 +1,6 @@
 {
   "name": "gruntacular",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "grunt plugin for testacular",
   "main": "testacularServer.js",
   "repository": {
