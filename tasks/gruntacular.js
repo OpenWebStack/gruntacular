@@ -22,9 +22,9 @@ module.exports = function(grunt) {
     if (data.configFile) {
       data.configFile = grunt.template.process(data.configFile);
     }
-    //support `testacular run`, useful for grunt watch
+    //support `testacular run`, useful for grunt watch/regarde task
     if (this.flags.run){
-      runner.run(data, finished.bind(done));
+      runner.run(data, done);
       return;
     }
     server.start(data, finished.bind(done));

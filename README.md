@@ -100,7 +100,7 @@ watch: {
 },
 ```
 
-In one terminal window start the testacular server by running `$ grunt testacular`. In another terminal window start grunt watch by running `$ grunt watch`. Now when grunt watch detects a change to one of those files, it will run the testacular tests using the already running testacular server. This is the preferred method for development.  
+In one terminal window start the testacular server by running `$ grunt testacular`. In another terminal window start grunt watch by running `$ grunt watch`. Now when grunt watch detects a change to one of those files, it will run the testacular tests using the already running testacular server. This is the preferred method for development. Note that when tests fail in this mode, gruntacular will intentionally **not** fail, so that your watch task will continue running.
 
 ###Single Run
 Keeping a browser window & testacular server running during development is productive, but not a good solution for build processes. For that reason testacular provides a "continuous integration" mode, which will launch the specified browser(s), run the tests, and close the browser(s). It also supports running tests in [PhantomJS](http://phantomjs.org/), a headless webkit browser which is great for running tests as part of a build. To run tests in continous integration mode just add the `singleRun` option:
