@@ -1,6 +1,7 @@
-#gruntacular
+#gruntacular (moved)
 Grunt plugin for [Testacular](http://vojtajina.github.com/testacular/)
-NOTE: this plugin requires Grunt 0.4.x
+
+THIS PLUGIN HAS MOVED TO [GRUNT-KARMA](https://github.com/karma-runner/grunt-karma)
 
 ##Getting Started
 From the same directory as your project's Gruntfile and package.json, install this plugin with the following command:
